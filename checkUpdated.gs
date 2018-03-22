@@ -2,7 +2,7 @@
 
 //LINE Notifyにmessageの内容を送信
 function sendHttpPost(message){
-  var token = "icDAMMXr8nfDmlUjjM3xdHzqmFN1jKcKSTMiiEnLv3i";
+  var token = "LINE Notifyのトークン";
   var options =
    {
      "method"  : "post",
@@ -24,7 +24,7 @@ function myFunction(){
 //1時間ごとのトリガーを設定すること。
 //トリガーの時間と29行目の条件文の中の数値で頻度の変更が可能
 function checkUpdate(){
-  var file = DriveApp.getFileById("18oYLbYW-FsVV2iHn-skHifCJh9wDfGdfgAl7LzowHqE");
+  var file = DriveApp.getFileById("更新をチェックしたいファイルのID");
   var lastUpdated = file.getLastUpdated();
   var date = new Date();
   var timePassed = date - lastUpdated;
