@@ -5,4 +5,4 @@
 Send message to LINE notify when specific file on Google drive was edited.  
   英語に無理がある。
 
-This software is released under the MIT License, see LICENSE.md.
+The file is released under the MIT License, see LICENSE.md.
